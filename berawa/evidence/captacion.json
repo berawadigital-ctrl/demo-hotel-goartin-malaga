@@ -1,0 +1,31 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hotel-goartin-malaga",
+ "maps": {
+  "fecha": "2026-10-29T10:24:53+01:00",
+  "estado": "LEIDA",
+  "ficha": "Hotel Goartin",
+  "nota": 4.4,
+  "coincide": {
+   "tel": true,
+   "web": true,
+   "dir": false
+  },
+  "url": "https://www.google.com/maps/place/Hotel+Goartin/@36.7135232,-4.4392423,17z/data=!4m9!3m8!1s0xd72f7762f24230f:0xd86051409c9c123d!5m2!4m1!1i2!8m2!3d36.7135232!4d-4.4392423!16s%2Fg%2F1tdm9pgh",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T10:24:53+01:00",
+  "veredicto": "MEJORABLE",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "R. Margo 2020, S.L.",
+  "cif": "B01601079",
+  "fuente": "Web hotelgoartin.com (CIF B-01601079, licencia H/MA/02022) contrastado con BORME vía datoscif: R. Margo 2020 SL, RM Málaga hoja MA-155890 (29/10/2026)",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "Administrador y socio único persona física; la web solo presenta este hotel"
+ }
+}

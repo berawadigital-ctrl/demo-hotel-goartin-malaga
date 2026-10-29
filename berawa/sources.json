@@ -1,0 +1,49 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hotelgoartin.com/es",
+ "read_at": "2026-10-29T11:15:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hotelgoartin.com/es",
+   "sha256": "84ff6eaf7dfbe61564e227ad44ecaa9f9e1b9551c09a41d62db8f3c96889f106",
+   "chars": 8015
+  },
+  {
+   "url": "https://www.hotelgoartin.com/es/contacto",
+   "sha256": "fc5252bc23b7a5bfe7146b65f21e87bb4a474164517004dcbb96f34ecb87be91",
+   "chars": 1415
+  },
+  {
+   "url": "https://www.hotelgoartin.com/es/entorno",
+   "sha256": "096d01149321a8ccda403ff8c8aee5f9d223b9dd66813e84b1cc68671ff5b158",
+   "chars": 6868
+  },
+  {
+   "url": "https://www.hotelgoartin.com/es/habitaciones",
+   "sha256": "529511513dc196addb3f575f5769d072d02763886e65e077a1f983aab7c7e1a6",
+   "chars": 4801
+  },
+  {
+   "url": "https://www.hotelgoartin.com/es/ofertas",
+   "sha256": "7800277dfa5de1056b09396fd6637a9e0a0842d17faac4fb9a0faf81c3bfd9ec",
+   "chars": 1880
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hotelgoartin.com/_nuxt/builds/meta/8354e2ef-c474-4742-b1d0-085e53b5d067.json",
+  "https://www.hotelgoartin.com/en",
+  "https://www.hotelgoartin.com/en/comentarios",
+  "https://www.hotelgoartin.com/en/contact",
+  "https://www.hotelgoartin.com/en/environment",
+  "https://www.hotelgoartin.com/en/gallery",
+  "https://www.hotelgoartin.com/en/hotel-goartin/reviews",
+  "https://www.hotelgoartin.com/en/offers",
+  "https://www.hotelgoartin.com/en/rooms",
+  "https://www.hotelgoartin.com/es/comentarios",
+  "https://www.hotelgoartin.com/es/galeria",
+  "https://www.hotelgoartin.com/es/hotel-goartin/reviews",
+  "https://www.hotelgoartin.com/it",
+  "https://www.hotelgoartin.com/it/hotel-goartin/reviews"
+ ]
+}
