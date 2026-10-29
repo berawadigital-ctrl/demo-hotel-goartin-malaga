@@ -1,0 +1,70 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-goartin-malaga",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T11:16:00+01:00",
+ "updated_at": "2026-10-29T11:25:00+01:00",
+ "business": {
+  "name": "Hotel Goartín",
+  "legal_name": "R. Margo 2020, S.L.",
+  "registry_ids": [
+   "CIF B-01601079",
+   "Registro Mercantil de Málaga hoja MA-155890",
+   "Licencia turística H/MA/02022"
+  ],
+  "url": "https://www.hotelgoartin.com/es",
+  "domain": "hotelgoartin.com",
+  "municipality": "Málaga",
+  "province": "Málaga",
+  "address": "C. Gerona, 32 · 29006 Málaga",
+  "phones": [
+   "+34 952 365 135"
+  ],
+  "emails": [
+   "administracion@hotelgoartin.com"
+  ],
+  "sector": "hotel de 2 estrellas junto a la estación María Zambrano de Málaga"
+ },
+ "rating": {
+  "value": 4.4,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Goartin/@36.7135232,-4.4392423,17z/data=!4m9!3m8!1s0xd72f7762f24230f:0xd86051409c9c123d!5m2!4m1!1i2!8m2!3d36.7135232!4d-4.4392423!16s%2Fg%2F1tdm9pgh",
+  "date": "2026-10-29T10:24:53+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://www.hotelgoartin.com/es/booking/property?id=100079",
+   "ca": "https://www.hotelgoartin.com/es/booking/property?id=100079",
+   "en": "https://www.hotelgoartin.com/en/booking/property?id=100079",
+   "fr": "https://www.hotelgoartin.com/en/booking/property?id=100079"
+  },
+  "note": "Las reservas van al motor de reservas real del hotel (obehotel, /booking/property?id=100079, la pagina a la que lleva su buscador «Buscar disponibilidad»); la demo no construye ningun motor."
+ },
+ "audit_original": {
+  "url": "https://www.hotelgoartin.com/es",
+  "date": "2026-10-29T11:14:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
